@@ -1,0 +1,259 @@
+@charset "ISO-8859-1";
+.navbar {
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    background-color: black;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: -40px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 1px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #008DFF;
+}
+
+ul li a:active {
+    color: #ff7200;
+}
+
+#bttn2 {
+    width: 100px;
+    height: 30px;
+    background: #008DFF;
+    border: 2px solid #008DFF;
+    color: #fff;
+    margin-left: 550px;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#bttn2:hover{
+    opacity: .7;
+}
+        
+.tbl1 {
+    background-color: black;
+}
+
+.img03 {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.welcome {
+    color: white;
+    font-family: Calibri;
+    margin-right: 200px;
+}
+
+#bttn2 {
+    width: 150px;
+    height: 30px;
+    background: #0000FF;
+    border: 2px solid #0000FF;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#bttn2:hover{
+    opacity: .7;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/* Caption text */
+.text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    padding: 4px 12px;
+    /*/margin-bottom: 330px;*/
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
+
+.tbl2 {
+    padding: 20px;
+    background-color: rgba(250,250, 250, 0.5)
+}
+
+.album{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+    .zoom:hover {
+        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+.link2 {
+    font-family: Calibri;
+    text-align: center;
+}
+
+.text3 {
+    color: black;
+    font-size: 40px;
+    padding: 4px 12px;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-left: 40px;
+    animation-timing-function: ease;
+    animation: mymove 2s alternate-reverse;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+
+.maintxt {
+    font-family: Calibri;
+    color: #008DFF;
+}

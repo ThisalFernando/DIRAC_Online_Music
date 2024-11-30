@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+form {
+    width: 970px;
+    height: 530px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(250,250, 250, 0.5);
+    font-size: 17px;
+    font-family: Calibri;
+}
+
+#uname, #email, #pwd{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+    margin-left: 310px;
+}
+
+.link1{
+    margin-left: 375px;
+    font-family: Calibri;
+}
+
+.Signup {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    text-align: center;
+}
+
+::placeholder {
+    font-family: Calibri;
+    text-align: center;
+}
+
+#btnn1{
+    width: 150px;
+    height: 40px;
+    background: #0000FF;
+    border: 2px solid #0000FF;
+    margin-left: 170px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#btnn1:hover{
+    opacity: .7;
+}
+
+hr{
+	border-color: gray;
+}
